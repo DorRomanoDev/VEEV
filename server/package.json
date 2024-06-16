@@ -1,0 +1,17 @@
+{
+  "name": "project-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for managing projects using a JSON file as the database.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "nodemon": "^3.1.3"
+  }
+}
